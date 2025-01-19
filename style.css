@@ -34,7 +34,6 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Menu interactif */
 nav {
     display: flex;
     justify-content: center;
@@ -55,7 +54,6 @@ nav a:hover {
     color: var(--text-dark);
 }
 
-/* Sections */
 section {
     background-color: #fff;
     padding: 20px;
@@ -133,7 +131,6 @@ h2 {
     border-radius: 5px;
 }
 
-/* Ajout du style pour les boîtes d'expériences */
 .experience-box {
     background-color: var(--primary-green);
     padding: 20px;
@@ -143,7 +140,6 @@ h2 {
     color: var(--text-dark);
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
     .profil-content {
         grid-template-columns: 1fr;
